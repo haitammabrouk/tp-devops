@@ -13,7 +13,7 @@ export class AppComponent {
     if (confirmLogout) {
       console.log("Logging out...");
     } else {
-      console.log("Déconnexion annulée.");
+      console.log("Déconnexion refuse.");
     }
   }
 }
