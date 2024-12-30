@@ -12,8 +12,6 @@ export class AppComponent {
     const confirmLogout = confirm("Êtes-vous sûr de vouloir vous déconnecter ?");
     if (confirmLogout) {
       console.log("Logging out...");
-    } else {
-      console.log("Déconnexion refuse.");
-    }
+    } 
   }
 }
