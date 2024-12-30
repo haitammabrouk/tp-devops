@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ensa-project';
+
+  logout() {
+    console.log("logging out...");
+  }
 }
