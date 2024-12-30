@@ -9,6 +9,11 @@ export class AppComponent {
   title = 'ensa-project';
 
   logout() {
-    console.log("logging out...");
+    const confirmLogout = confirm("Êtes-vous sûr de vouloir vous déconnecter ?");
+    if (confirmLogout) {
+      console.log("Logging out...");
+    } else {
+      console.log("Déconnexion annulée.");
+    }
   }
 }
