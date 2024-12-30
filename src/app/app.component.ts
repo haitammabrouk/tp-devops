@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ensa-project';
+  
+  branch1_title = 'branch1-project';
 }
